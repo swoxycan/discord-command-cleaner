@@ -3,7 +3,6 @@ import aiohttp
 import asyncio
 import json
 
-# Config dosyasını oku
 with open('config.json', 'r') as config_file:
     config = json.load(config_file)
     TOKEN = config['token']
